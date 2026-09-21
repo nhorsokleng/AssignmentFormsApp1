@@ -67,6 +67,8 @@
             this.panel8 = new System.Windows.Forms.Panel();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel23.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -242,6 +244,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.button14);
             this.panel2.Controls.Add(this.button13);
             this.panel2.Controls.Add(this.button12);
             this.panel2.Controls.Add(this.button11);
@@ -269,9 +272,9 @@
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.Black;
-            this.button11.Location = new System.Drawing.Point(115, 14);
+            this.button11.Location = new System.Drawing.Point(105, 14);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(80, 33);
+            this.button11.Size = new System.Drawing.Size(72, 33);
             this.button11.TabIndex = 12;
             this.button11.Text = "Coffee";
             this.button11.UseVisualStyleBackColor = false;
@@ -284,7 +287,7 @@
             this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Location = new System.Drawing.Point(14, 14);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(87, 33);
+            this.button10.Size = new System.Drawing.Size(76, 33);
             this.button10.TabIndex = 11;
             this.button10.Text = "All Item";
             this.button10.UseVisualStyleBackColor = false;
@@ -388,6 +391,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.label1);
             this.panel4.Controls.Add(this.textBox2);
@@ -431,7 +435,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(372, 42);
+            this.label3.Location = new System.Drawing.Point(371, 42);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 17);
             this.label3.TabIndex = 8;
@@ -481,7 +485,7 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.Black;
-            this.button12.Location = new System.Drawing.Point(219, 14);
+            this.button12.Location = new System.Drawing.Point(194, 14);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(57, 33);
             this.button12.TabIndex = 13;
@@ -494,12 +498,35 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.Black;
-            this.button13.Location = new System.Drawing.Point(320, 14);
+            this.button13.Location = new System.Drawing.Point(271, 14);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(87, 33);
+            this.button13.Size = new System.Drawing.Size(116, 33);
             this.button13.TabIndex = 14;
-            this.button13.Text = "All Item";
+            this.button13.Text = "Non-Coffee";
             this.button13.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.White;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.ForeColor = System.Drawing.Color.Black;
+            this.button14.Location = new System.Drawing.Point(401, 14);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(72, 33);
+            this.button14.TabIndex = 15;
+            this.button14.Text = "Pastry";
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(16, 16);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(353, 25);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Coffee Shop Management System";
             // 
             // Menu
             // 
@@ -563,5 +590,7 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Label label2;
     }
 }
