@@ -39,8 +39,10 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -132,6 +134,7 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Window;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.checkBox1);
@@ -146,6 +149,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(563, 677);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(141, 162);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(159, 25);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Welcome Back";
             // 
             // button2
             // 
@@ -164,12 +177,24 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Teal;
+            this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Location = new System.Drawing.Point(-10, 13);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(656, 679);
             this.panel2.TabIndex = 1;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(152, 331);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(353, 25);
+            this.label6.TabIndex = 15;
+            this.label6.Text = "Coffee Shop Management System";
             // 
             // label5
             // 
@@ -227,6 +252,8 @@
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label6;
     }
 }
 

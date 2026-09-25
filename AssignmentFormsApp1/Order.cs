@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AssignmentFormsApp1
 {
-    public partial class Menu : Form
+    public partial class Order : Form
     {
-        public Menu()
+        public Order()
         {
             InitializeComponent();
         }
@@ -23,21 +23,16 @@ namespace AssignmentFormsApp1
             new Dashboard().Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            new Order().Show();
+            new Menu().Show();
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            new Login().Show();
-        }
-
-        private void button29_Click(object sender, EventArgs e)
-        {
-
+           this.Hide();
+            new Inventory().Show();
         }
     }
 }

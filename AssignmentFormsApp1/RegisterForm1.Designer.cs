@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegisterForm1));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -43,7 +42,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +49,6 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Teal;
-            this.panel2.Controls.Add(this.label7);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.panel5);
@@ -59,19 +56,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(656, 700);
             this.panel2.TabIndex = 2;
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.Teal;
-            this.label7.Enabled = false;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(147, 259);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(371, 38);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "Coffee Shop Management System";
             // 
             // button2
             // 
@@ -121,7 +105,6 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(655, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -209,18 +192,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Enabled = false;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(140, 136);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 37);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Register";
-            // 
             // RegisterForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -242,7 +213,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel5;
@@ -253,7 +223,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox3;
     }

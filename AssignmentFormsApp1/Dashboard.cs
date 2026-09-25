@@ -54,5 +54,17 @@ namespace AssignmentFormsApp1
             this.Hide();
             new Menu().Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Order().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Inventory().Show();
+        }
     }
 }
