@@ -58,50 +58,62 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.panel20 = new System.Windows.Forms.Panel();
+            this.label28 = new System.Windows.Forms.Label();
             this.button15 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.panel33 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
+            this.label29 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.panel32 = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.panel31 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
             this.button22 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.panel29 = new System.Windows.Forms.Panel();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.label26 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.panel28 = new System.Windows.Forms.Panel();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.label27 = new System.Windows.Forms.Label();
             this.button20 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.panel27 = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.panel25 = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
+            this.label22 = new System.Windows.Forms.Label();
             this.button24 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
             this.button25 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.label18 = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.panel30 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.label24 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.panel26 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.label20 = new System.Windows.Forms.Label();
             this.button26 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.panel21 = new System.Windows.Forms.Panel();
@@ -114,18 +126,6 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
             this.panel23.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel8.SuspendLayout();
@@ -580,6 +580,16 @@
             this.panel20.Size = new System.Drawing.Size(147, 125);
             this.panel20.TabIndex = 10;
             // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Location = new System.Drawing.Point(78, 57);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(49, 19);
+            this.label28.TabIndex = 73;
+            this.label28.Text = "$3.50";
+            // 
             // button15
             // 
             this.button15.BackColor = System.Drawing.Color.MediumSpringGreen;
@@ -626,6 +636,16 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(147, 125);
             this.panel19.TabIndex = 9;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(77, 57);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(49, 19);
+            this.label29.TabIndex = 73;
+            this.label29.Text = "$2.50";
             // 
             // button16
             // 
@@ -674,6 +694,16 @@
             this.panel18.Size = new System.Drawing.Size(147, 125);
             this.panel18.TabIndex = 8;
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(79, 58);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(49, 19);
+            this.label19.TabIndex = 72;
+            this.label19.Text = "$1.50";
+            // 
             // button17
             // 
             this.button17.BackColor = System.Drawing.Color.MediumSpringGreen;
@@ -720,6 +750,16 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(147, 125);
             this.panel17.TabIndex = 7;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(79, 56);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(49, 19);
+            this.label25.TabIndex = 73;
+            this.label25.Text = "$3.00";
             // 
             // button22
             // 
@@ -768,6 +808,16 @@
             this.panel16.Size = new System.Drawing.Size(147, 125);
             this.panel16.TabIndex = 6;
             // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(77, 56);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(49, 19);
+            this.label26.TabIndex = 74;
+            this.label26.Text = "$3.00";
+            // 
             // button21
             // 
             this.button21.BackColor = System.Drawing.Color.MediumSpringGreen;
@@ -814,6 +864,16 @@
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(147, 125);
             this.panel15.TabIndex = 5;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(78, 55);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(49, 19);
+            this.label27.TabIndex = 74;
+            this.label27.Text = "$2.50";
             // 
             // button20
             // 
@@ -862,6 +922,16 @@
             this.panel14.Size = new System.Drawing.Size(147, 125);
             this.panel14.TabIndex = 4;
             // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(78, 57);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(49, 19);
+            this.label23.TabIndex = 73;
+            this.label23.Text = "$2.50";
+            // 
             // button23
             // 
             this.button23.BackColor = System.Drawing.Color.MediumSpringGreen;
@@ -908,6 +978,16 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(147, 125);
             this.panel13.TabIndex = 3;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(77, 58);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(49, 19);
+            this.label22.TabIndex = 73;
+            this.label22.Text = "$2.50";
             // 
             // button24
             // 
@@ -956,6 +1036,16 @@
             this.panel10.Size = new System.Drawing.Size(147, 125);
             this.panel10.TabIndex = 1;
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(78, 55);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(49, 19);
+            this.label21.TabIndex = 73;
+            this.label21.Text = "$2.50";
+            // 
             // button25
             // 
             this.button25.BackColor = System.Drawing.Color.MediumSpringGreen;
@@ -1002,6 +1092,16 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(147, 125);
             this.panel12.TabIndex = 1;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(78, 58);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(49, 19);
+            this.label18.TabIndex = 71;
+            this.label18.Text = "$1.50";
             // 
             // button18
             // 
@@ -1050,6 +1150,16 @@
             this.panel11.Size = new System.Drawing.Size(147, 125);
             this.panel11.TabIndex = 2;
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(79, 56);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(49, 19);
+            this.label24.TabIndex = 73;
+            this.label24.Text = "$2.50";
+            // 
             // button19
             // 
             this.button19.BackColor = System.Drawing.Color.MediumSpringGreen;
@@ -1097,6 +1207,16 @@
             this.panel9.Size = new System.Drawing.Size(147, 125);
             this.panel9.TabIndex = 0;
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(78, 57);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(49, 19);
+            this.label20.TabIndex = 72;
+            this.label20.Text = "$2.50";
+            // 
             // button26
             // 
             this.button26.BackColor = System.Drawing.Color.MediumSpringGreen;
@@ -1143,7 +1263,7 @@
             this.panel4.Controls.Add(this.panel7);
             this.panel4.Controls.Add(this.panel6);
             this.panel4.Controls.Add(this.panel5);
-            this.panel4.Location = new System.Drawing.Point(206, 1);
+            this.panel4.Location = new System.Drawing.Point(206, 2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(998, 82);
             this.panel4.TabIndex = 18;
@@ -1224,126 +1344,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(79, 70);
             this.panel5.TabIndex = 6;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(78, 58);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(49, 19);
-            this.label18.TabIndex = 71;
-            this.label18.Text = "$1.50";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(79, 58);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(49, 19);
-            this.label19.TabIndex = 72;
-            this.label19.Text = "$1.50";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(78, 57);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(49, 19);
-            this.label20.TabIndex = 72;
-            this.label20.Text = "$2.50";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(78, 55);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(49, 19);
-            this.label21.TabIndex = 73;
-            this.label21.Text = "$2.50";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(77, 58);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(49, 19);
-            this.label22.TabIndex = 73;
-            this.label22.Text = "$2.50";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(78, 57);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(49, 19);
-            this.label23.TabIndex = 73;
-            this.label23.Text = "$2.50";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(79, 56);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(49, 19);
-            this.label24.TabIndex = 73;
-            this.label24.Text = "$2.50";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(79, 56);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(49, 19);
-            this.label25.TabIndex = 73;
-            this.label25.Text = "$3.00";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(77, 56);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(49, 19);
-            this.label26.TabIndex = 74;
-            this.label26.Text = "$3.00";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(78, 55);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(49, 19);
-            this.label27.TabIndex = 74;
-            this.label27.Text = "$2.50";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(78, 57);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(49, 19);
-            this.label28.TabIndex = 73;
-            this.label28.Text = "$3.50";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(77, 57);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(49, 19);
-            this.label29.TabIndex = 73;
-            this.label29.Text = "$2.50";
             // 
             // Menu
             // 

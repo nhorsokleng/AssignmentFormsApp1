@@ -134,6 +134,7 @@
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Window;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.label4);
@@ -141,13 +142,12 @@
             this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(639, 14);
+            this.panel1.Location = new System.Drawing.Point(614, -3);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(563, 677);
+            this.panel1.Size = new System.Drawing.Size(588, 706);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -180,9 +180,9 @@
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.panel5);
-            this.panel2.Location = new System.Drawing.Point(-10, 13);
+            this.panel2.Location = new System.Drawing.Point(-10, -3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(656, 679);
+            this.panel2.Size = new System.Drawing.Size(631, 706);
             this.panel2.TabIndex = 1;
             // 
             // label6
@@ -190,11 +190,12 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(152, 331);
+            this.label6.Location = new System.Drawing.Point(163, 338);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(353, 25);
             this.label6.TabIndex = 15;
             this.label6.Text = "Coffee Shop Management System";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -211,7 +212,7 @@
             this.panel5.BackColor = System.Drawing.Color.Teal;
             this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel5.Location = new System.Drawing.Point(219, 88);
+            this.panel5.Location = new System.Drawing.Point(220, 87);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(232, 208);
             this.panel5.TabIndex = 7;
@@ -220,7 +221,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1200, 703);
             this.Controls.Add(this.panel2);
@@ -249,11 +249,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Panel panel5;
     }
 }
 
